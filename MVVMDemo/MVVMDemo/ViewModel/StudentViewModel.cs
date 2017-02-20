@@ -19,10 +19,10 @@ namespace MVVMDemo.ViewModel
         {
             ObservableCollection<Student> students = new ObservableCollection<Model.Student>();
             //lisätään esimerkin vuoksi muutama opiskelija, oikeassa sovelluksessa haettaisiin esim. tietokannasta
-            students.Add(new Model.Student { Firstname = "Kalle", LastName = "Jalkanen" });
-            students.Add(new Model.Student { Firstname = "Teppo", LastName = "Testaaja" });
-            students.Add(new Model.Student { Firstname = "Tomi", LastName = "Töttenström" });
-            students.Add(new Model.Student { Firstname = "Anni", LastName = "Ainokainen" });
+            students.Add(new Model.Student { Firstname = "Kalle", LastName = "Jalkanen", Asioid = "A1234" });
+            students.Add(new Model.Student { Firstname = "Teppo", LastName = "Testaaja", Asioid = "B1234" });
+            students.Add(new Model.Student { Firstname = "Tomi", LastName = "Töttenström", Asioid = "C1234" });
+            students.Add(new Model.Student { Firstname = "Anni", LastName = "Ainokainen", Asioid = "D1234" });
             Students = students; //property
         }
     }

@@ -47,6 +47,7 @@ namespace MVVMDemo.Model
                 return firstname + " " + lastname;
             }
         }
+        public string Asioid { get; set; }
         //Constructors
         //Methods
         //Events
